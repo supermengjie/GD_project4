@@ -1,0 +1,963 @@
+﻿Log file open, 12/03/18 18:21:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: project4
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.280365
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.121s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.03-23.21.21:704][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.03-23.21.21:704][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.03-23.21.21:716][  0]LogHAL: Display: Platform has ~ 16 GB [17101697024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.03-23.21.21:716][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.03-23.21.21:716][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.03-23.21.21:716][  0]LogInit: Computer: DESKTOP-DM0EON2
+[2018.12.03-23.21.21:716][  0]LogInit: User: wwwsp
+[2018.12.03-23.21.21:716][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.03-23.21.21:716][  0]LogInit: High frequency timer resolution =3.328124 MHz
+[2018.12.03-23.21.21:716][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.03-23.21.21:716][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.03-23.21.21:716][  0]LogMemory: Process Physical Memory: 100.12 MB used, 100.12 MB peak
+[2018.12.03-23.21.21:716][  0]LogMemory: Process Virtual Memory: 91.02 MB used, 91.02 MB peak
+[2018.12.03-23.21.21:716][  0]LogMemory: Physical Memory: 7583.79 MB used,  8725.66 MB free, 16309.45 MB total
+[2018.12.03-23.21.21:716][  0]LogMemory: Virtual Memory: 4644.93 MB used,  8725.66 MB free, 134217728.00 MB total
+[2018.12.03-23.21.21:731][  0]LogInit: Using OS detected language (en-US).
+[2018.12.03-23.21.21:731][  0]LogInit: Using OS detected locale (en-GB).
+[2018.12.03-23.21.21:732][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.03-23.21.22:086][  0]LogStreaming: Display: Took  0.355s to InitEngineTextLocalization.
+[2018.12.03-23.21.22:086][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.03-23.21.22:113][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.03-23.21.22:113][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.03-23.21.22:291][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.03-23.21.22:291][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.03-23.21.22:348][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.12.03-23.21.22:348][  0]LogD3D11RHI:       8088/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.03-23.21.22:349][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.03-23.21.22:349][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.03-23.21.22:350][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.03-23.21.22:357][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.03-23.21.22:357][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.03-23.21.22:357][  0]LogWindows: EnumDisplayDevices:
+[2018.12.03-23.21.22:357][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.12.03-23.21.22:357][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.03-23.21.22:357][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.03-23.21.22:358][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.03-23.21.22:358][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.03-23.21.22:358][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.12.03-23.21.22:358][  0]LogD3D11RHI:   Driver Version: 399.24 (internal:24.21.13.9924, unified:399.24)
+[2018.12.03-23.21.22:358][  0]LogD3D11RHI:      Driver Date: 9-5-2018
+[2018.12.03-23.21.22:358][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.12.03-23.21.22:399][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.03-23.21.22:432][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.03-23.21.22:474][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Intermediate/Shaders/WorkingDirectory/17312/).
+[2018.12.03-23.21.22:475][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wwwsp/AppData/Local/Temp/UnrealShaderWorkingDir/6E9CBFAF41A0D53034A17A8165B20C70/'.
+[2018.12.03-23.21.22:744][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.03-23.21.22:756][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.03-23.21.22:767][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.03-23.21.22:779][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.03-23.21.22:795][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.03-23.21.22:807][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.03-23.21.22:818][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.03-23.21.22:833][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.03-23.21.22:839][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.03-23.21.22:916][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.03-23.21.22:974][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.03-23.21.22:974][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.03-23.21.22:995][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.03-23.21.22:995][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.03-23.21.23:005][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.03-23.21.23:015][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.03-23.21.23:026][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.03-23.21.23:041][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.03-23.21.23:051][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.03-23.21.23:051][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.03-23.21.23:111][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.03-23.21.23:111][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.03-23.21.23:111][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.03-23.21.23:791][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.03-23.21.23:846][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/wwwsp/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.03-23.21.23:847][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/wwwsp/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.03-23.21.23:847][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.03-23.21.23:847][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.03-23.21.23:847][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.03-23.21.23:847][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.03-23.21.23:860][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.03-23.21.23:873][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wwwsp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.03-23.21.23:873][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.03-23.21.23:873][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.03-23.21.23:892][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.03-23.21.23:894][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.03-23.21.23:894][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.03-23.21.23:965][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.12.03-23.21.24:275][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.03-23.21.24:389][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.03-23.21.24:392][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.03-23.21.24:392][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.03-23.21.24:392][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.03-23.21.24:392][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.03-23.21.24:408][  0]LogNetVersion: project4 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1992437466)
+[2018.12.03-23.21.24:917][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.153751 seconds
+[2018.12.03-23.21.24:924][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.03-23.21.24:924][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.12.03-23.21.24:924][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.03-23.21.25:697][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.03-23.21.25:711][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.03-23.21.25:845][  0]SourceControl: Source control is disabled
+[2018.12.03-23.21.25:845][  0]SourceControl: Source control is disabled
+[2018.12.03-23.21.25:846][  0]SourceControl: Source control is disabled
+[2018.12.03-23.21.25:847][  0]SourceControl: Source control is disabled
+[2018.12.03-23.21.26:002][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.03-23.21.26:053][  0]LogOcInput: OculusInput pre-init called
+[2018.12.03-23.21.26:111][  0]LogEngine: Initializing Engine...
+[2018.12.03-23.21.26:112][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.03-23.21.26:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.03-23.21.26:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.03-23.21.26:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.03-23.21.26:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.03-23.21.26:313][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.03-23.21.26:329][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.03-23.21.26:392][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.03-23.21.26:442][  0]LogInit: FAudioDevice initialized.
+[2018.12.03-23.21.26:442][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.03-23.21.26:526][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/wwwsp/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.03-23.21.26:545][  0]LogInit: Texture streaming: Enabled
+[2018.12.03-23.21.26:560][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.03-23.21.26:572][  0]LogInit: Transaction tracking system initialized
+[2018.12.03-23.21.26:595][  0]BlueprintLog: New page: Editor Load
+[2018.12.03-23.21.26:670][  0]LocalizationService: Localization service is disabled
+[2018.12.03-23.21.26:916][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.03-23.21.26:916][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.03-23.21.26:916][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.03-23.21.26:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.03-23.21.26:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.03-23.21.26:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.03-23.21.26:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.03-23.21.27:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/' took 0.02s
+[2018.12.03-23.21.27:042][  0]SourceControl: Source control is disabled
+[2018.12.03-23.21.27:042][  0]Cmd: MAP LOAD FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.03-23.21.27:042][  0]LightingResults: New page: Lighting Build
+[2018.12.03-23.21.27:044][  0]MapCheck: New page: Map Check
+[2018.12.03-23.21.27:044][  0]LightingResults: New page: Lighting Build
+[2018.12.03-23.21.27:576][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.03-23.21.27:588][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.03-23.21.27:612][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.03-23.21.27:680][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.517ms to complete.
+[2018.12.03-23.21.27:680][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.639
+[2018.12.03-23.21.27:753][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.03-23.21.27:761][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.03-23.21.27:767][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.03-23.21.27:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.03-23.21.27:781][  0]LogCollectionManager: Loaded 0 collections in 0.001283 seconds
+[2018.12.03-23.21.27:822][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Collections/' took 0.01s
+[2018.12.03-23.21.27:822][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Developers/wwwsp/Collections/' took 0.01s
+[2018.12.03-23.21.27:822][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Collections/' took 0.01s
+[2018.12.03-23.21.27:822][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.03-23.21.27:830][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2572 classes and 603 folders.
+[2018.12.03-23.21.27:836][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.03-23.21.27:876][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.03-23.21.27:881][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.12.03-23.21.27:895][  0]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.03-23.21.27:900][  0]LogSlate: Took 0.000505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.03-23.21.27:903][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.03-23.21.27:966][  0]LogRenderer: Reallocating scene render targets to support 1684x756 Format 10 NumSamples 1 (Frame:1).
+[2018.12.03-23.21.28:106][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.03-23.21.28:106][  0]LogLoad: (Engine Initialization) Total time: 8.02 seconds
+[2018.12.03-23.21.28:106][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.03-23.21.28:157][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.03-23.21.28:233][  1]LogAssetRegistry: Asset discovery search completed in 4.2906 seconds
+[2018.12.03-23.21.28:236][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.12.03-23.21.28:236][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2018.12.03-23.21.31:241][ 10]AssetReimport: New page: Outstanding source content changes 13:21:31
+[2018.12.03-23.21.31:243][ 10]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.03-23.21.33:242][ 16]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/' took 5.11s
+[2018.12.03-23.22.40:282][  7]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.03-23.22.40:294][  7]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2018.12.03-23.22.40:296][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.03-23.22.58:521][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf.fbx)
+[2018.12.03-23.22.58:545][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf.fbx
+[2018.12.03-23.22.58:579][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.02:647][103]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.03-23.23.02:808][103]LogMaterial: Display: Missing cached shader map for material aiStandardSurface2, compiling. 
+[2018.12.03-23.23.02:849][103]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.03-23.23.02:849][103]LogFbx: Warning: Triangulating static mesh pCube4
+[2018.12.03-23.23.02:861][103]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.03-23.23.02:861][103]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.03-23.23.02:865][103]LogStaticMesh: Building static mesh bookshelf...
+[2018.12.03-23.23.02:910][103]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/Meshes/bookshelf.bookshelf
+[2018.12.03-23.23.02:911][103]LogStaticMesh: Warning: bookshelf has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2018.12.03-23.23.02:911][103]LogStaticMesh: Warning: bookshelf has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.12.03-23.23.02:923][103]FBXImport: Warning: bookshelf has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2018.12.03-23.23.02:923][103]FBXImport: Warning: bookshelf has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.12.03-23.23.02:937][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbx)
+[2018.12.03-23.23.02:952][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbx
+[2018.12.03-23.23.02:985][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.02:987][103]LogFbx: Warning: Triangulating static mesh pCube1
+[2018.12.03-23.23.02:994][103]LogStaticMesh: Building static mesh cablebox_pCube1...
+[2018.12.03-23.23.03:004][103]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/cablebox_pCube1.cablebox_pCube1
+[2018.12.03-23.23.03:022][103]LogMaterial: Display: Missing cached shader map for material aiStandardSurface3, compiling. 
+[2018.12.03-23.23.03:035][103]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.03-23.23.03:036][103]LogFbx: Warning: Triangulating static mesh pCube2
+[2018.12.03-23.23.03:037][103]LogStaticMesh: Building static mesh cablebox_pCube2...
+[2018.12.03-23.23.03:041][103]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Meshes/cablebox_pCube2.cablebox_pCube2
+[2018.12.03-23.23.03:097][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair.fbx)
+[2018.12.03-23.23.03:142][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair.fbx
+[2018.12.03-23.23.03:184][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.03:195][103]LogMaterial: Display: Missing cached shader map for material aiStandardSurface1, compiling. 
+[2018.12.03-23.23.03:213][103]LogFbx: Warning: Triangulating static mesh pCube6
+[2018.12.03-23.23.03:234][103]LogStaticMesh: Building static mesh chair_pCube6...
+[2018.12.03-23.23.03:251][103]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/chair_pCube6.chair_pCube6
+[2018.12.03-23.23.03:261][103]LogFbx: Warning: Triangulating static mesh pCube7
+[2018.12.03-23.23.03:279][103]LogStaticMesh: Building static mesh chair_pCube7...
+[2018.12.03-23.23.03:300][103]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/chair_pCube7.chair_pCube7
+[2018.12.03-23.23.03:352][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch.fbx)
+[2018.12.03-23.23.03:401][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch.fbx
+[2018.12.03-23.23.03:450][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.03:454][103]LogFbx: Warning: Triangulating static mesh pCube6
+[2018.12.03-23.23.03:475][103]LogStaticMesh: Building static mesh couch_pCube6...
+[2018.12.03-23.23.03:492][103]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/couch_pCube6.couch_pCube6
+[2018.12.03-23.23.03:504][103]LogFbx: Warning: Triangulating static mesh pCube7
+[2018.12.03-23.23.03:523][103]LogStaticMesh: Building static mesh couch_pCube7...
+[2018.12.03-23.23.03:544][103]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/couch_pCube7.couch_pCube7
+[2018.12.03-23.23.03:573][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable.fbx)
+[2018.12.03-23.23.03:591][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable.fbx
+[2018.12.03-23.23.03:634][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.03:639][103]LogFbx: Warning: Triangulating static mesh pCube5
+[2018.12.03-23.23.03:663][103]LogStaticMesh: Building static mesh endtable_pCube5...
+[2018.12.03-23.23.03:688][103]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.03-23.23.03:688][103]LogStaticMesh: Built static mesh [0.03s] /Game/Geometry/Meshes/endtable_pCube5.endtable_pCube5
+[2018.12.03-23.23.03:708][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/mug.fbx)
+[2018.12.03-23.23.03:722][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/mug.fbx
+[2018.12.03-23.23.03:737][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.03:741][103]LogFbx: Warning: Triangulating static mesh mug:pCylinder1
+[2018.12.03-23.23.03:814][103]LogStaticMesh: Building static mesh mug_pCylinder1...
+[2018.12.03-23.23.03:853][103]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/Meshes/mug_pCylinder1.mug_pCylinder1
+[2018.12.03-23.23.03:891][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio.fbx)
+[2018.12.03-23.23.03:912][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio.fbx
+[2018.12.03-23.23.03:968][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.03:988][103]LogFbx: Warning: Triangulating static mesh pPrism1
+[2018.12.03-23.23.04:993][103]LogStaticMesh: Building static mesh oldradio_pPrism1...
+[2018.12.03-23.23.05:382][103]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.03-23.23.05:382][103]LogStaticMesh: Built static mesh [0.39s] /Game/Geometry/Meshes/oldradio_pPrism1.oldradio_pPrism1
+[2018.12.03-23.23.05:557][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil.fbx)
+[2018.12.03-23.23.05:574][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil.fbx
+[2018.12.03-23.23.05:594][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.05:596][103]LogFbx: Warning: Triangulating static mesh pCylinder1
+[2018.12.03-23.23.05:604][103]LogStaticMesh: Building static mesh pencil_pCylinder1...
+[2018.12.03-23.23.05:612][103]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/pencil_pCylinder1.pencil_pCylinder1
+[2018.12.03-23.23.05:625][103]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.03-23.23.05:630][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv.fbx)
+[2018.12.03-23.23.05:644][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv.fbx
+[2018.12.03-23.23.05:662][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.05:665][103]LogFbx: Warning: Triangulating static mesh pCube1
+[2018.12.03-23.23.05:676][103]LogStaticMesh: Building static mesh tv_pCube1...
+[2018.12.03-23.23.05:689][103]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/tv_pCube1.tv_pCube1
+[2018.12.03-23.23.05:714][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench.fbx)
+[2018.12.03-23.23.05:731][103]LogFbx: Loading FBX Scene from ../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench.fbx
+[2018.12.03-23.23.05:757][103]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.03-23.23.05:761][103]LogFbx: Warning: Triangulating static mesh pCube2
+[2018.12.03-23.23.05:778][103]LogStaticMesh: Building static mesh wrench_pCube2...
+[2018.12.03-23.23.05:791][103]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/wrench_pCube2.wrench_pCube2
+[2018.12.03-23.23.07:484][188]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.03-23.23.09:016][293]AssetReimport: New page: Outstanding source content changes 13:23:09
+[2018.12.03-23.23.09:018][293]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable.fbm/endtable_f0.lambert1.png)
+[2018.12.03-23.23.09:286][294]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch.fbm/couch_lambert1_Normal.png)
+[2018.12.03-23.23.09:765][295]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch.fbm/couch_lambert1_BaseColor.png)
+[2018.12.03-23.23.11:240][296]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair.fbm/couch_lambert1_Roughness.png)
+[2018.12.03-23.23.11:654][297]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbm/initialShadingGroup_Normal_OpenGL.png)
+[2018.12.03-23.23.11:989][298]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbm/1/initialShadingGroup_Base_Color.png)
+[2018.12.03-23.23.12:309][299]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbm/initialShadingGroup_Normal.png)
+[2018.12.03-23.23.12:633][300]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbm/initialShadingGroup_Base_Color.png)
+[2018.12.03-23.23.12:872][301]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf.fbm/initialShadingGroup_Normal.png)
+[2018.12.03-23.23.13:191][302]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf.fbm/initialShadingGroup_Base_Color.png)
+[2018.12.03-23.23.13:508][303]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable.fbm/endtable_Specular.lambert1.png)
+[2018.12.03-23.23.13:784][304]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch.fbm/couch_lambert1_Roughness.png)
+[2018.12.03-23.23.14:156][305]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair.fbm/couch_lambert1_Normal.png)
+[2018.12.03-23.23.14:563][306]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair.fbm/couch_lambert1_BaseColor.png)
+[2018.12.03-23.23.15:965][307]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbm/1/initialShadingGroup_Roughness.png)
+[2018.12.03-23.23.16:179][308]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbm/1/initialShadingGroup_Metallic.png)
+[2018.12.03-23.23.16:416][309]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbm/initialShadingGroup_Roughness.png)
+[2018.12.03-23.23.16:646][310]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox.fbm/initialShadingGroup_Metallic.png)
+[2018.12.03-23.23.16:822][311]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf.fbm/initialShadingGroup_Roughness.png)
+[2018.12.03-23.23.17:046][312]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf.fbm/initialShadingGroup_Metallic.png)
+[2018.12.03-23.23.17:216][313]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench.fbm/initialShadingGroup_Normal_OpenGL.png)
+[2018.12.03-23.23.17:568][314]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench.fbm/initialShadingGroup_Roughness.png)
+[2018.12.03-23.23.17:886][315]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench.fbm/initialShadingGroup_Base_Color.png)
+[2018.12.03-23.23.18:150][316]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench.fbm/initialShadingGroup_Metallic.png)
+[2018.12.03-23.23.18:384][317]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv.fbm/initialShadingGroup_Normal.png)
+[2018.12.03-23.23.18:673][318]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv.fbm/initialShadingGroup_Roughness.png)
+[2018.12.03-23.23.18:918][319]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv.fbm/initialShadingGroup_Base_Color.png)
+[2018.12.03-23.23.19:098][320]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv.fbm/initialShadingGroup_Metallic.png)
+[2018.12.03-23.23.19:259][321]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil.fbm/pencil_Normal.initialShadingGroup.png)
+[2018.12.03-23.23.19:602][322]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil.fbm/pencil_Roughness.initialShadingGroup.png)
+[2018.12.03-23.23.19:846][323]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil.fbm/initialShadingGroup_Base_Color.png)
+[2018.12.03-23.23.20:142][324]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil.fbm/initialShadingGroup_Metallic.png)
+[2018.12.03-23.23.20:322][325]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio.fbm/initialShadingGroup_Normal_OpenGL.png)
+[2018.12.03-23.23.20:650][326]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio.fbm/initialShadingGroup_Base_Color.png)
+[2018.12.03-23.23.21:048][327]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio.fbm/initialShadingGroup_Metallic.png)
+[2018.12.03-23.23.21:200][328]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/mug.fbm/initialShadingGroup_Roughness.png)
+[2018.12.03-23.23.21:520][329]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/mug.fbm/initialShadingGroup_Base_Color.png)
+[2018.12.03-23.23.21:794][330]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable.fbm/endtable_Normal.lambert1.png)
+[2018.12.03-23.23.22:097][331]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable.fbm/lambert1_Opacity.png)
+[2018.12.03-23.23.22:420][332]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable.fbm/endtable_Roughness.lambert1.png)
+[2018.12.03-23.23.22:767][333]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable.fbm/endtable_Diffuse.lambert1.png)
+[2018.12.03-23.23.23:105][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/endtable_f0_lambert15A140ACC4AA89AC51215DE8F153E8F94.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable_fbm/endtable_f0_lambert1.uasset'
+[2018.12.03-23.23.23:747][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_lambert1_Normal2256F0834A08D8F82355AF87139FFFF0.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch_fbm/couch_lambert1_Normal.uasset'
+[2018.12.03-23.23.24:235][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_lambert1_BaseColor100F566B4A8C66B81DC9928812279EE4.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch_fbm/couch_lambert1_BaseColor.uasset'
+[2018.12.03-23.23.24:404][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_lambert1_Roughness97F859C44363108A0EEA229BDAFFA92A.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair_fbm/couch_lambert1_Roughness.uasset'
+[2018.12.03-23.23.24:602][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Normal_OpenGFF0E024342728F1738460D9ED70955CE.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Normal_OpenGL.uasset'
+[2018.12.03-23.23.24:795][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Base_Color1D88D87E4C19DF07145269A2533DA434.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_fbm/1/initialShadingGroup_Base_Color.uasset'
+[2018.12.03-23.23.24:983][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_NormalC1CF7ED344E62C5206D622B945A79D7A.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Normal.uasset'
+[2018.12.03-23.23.25:185][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Base_Color876649B140E944481CF7C18C8105AD38.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Base_Color.uasset'
+[2018.12.03-23.23.25:498][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_NormalEE41D99542D8ECCB15DC659AD7E1514B.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf_fbm/initialShadingGroup_Normal.uasset'
+[2018.12.03-23.23.25:682][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Base_Color847273B347CD4102852396A1773186DF.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf_fbm/initialShadingGroup_Base_Color.uasset'
+[2018.12.03-23.23.25:867][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/endtable_Specular_lambert15E8602BB4A05A2C92FD0C5A0BA0391A0.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable_fbm/endtable_Specular_lambert1.uasset'
+[2018.12.03-23.23.26:014][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_lambert1_Roughness3039B49F4284BA3F1A5DE08FBC6EA03E.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch_fbm/couch_lambert1_Roughness.uasset'
+[2018.12.03-23.23.26:608][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_lambert1_Normal51C4016B4A33CF017A25B4BBB0DD1399.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair_fbm/couch_lambert1_Normal.uasset'
+[2018.12.03-23.23.27:051][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_lambert1_BaseColorA32CAD564DC31B481CF1B08E517D5219.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair_fbm/couch_lambert1_BaseColor.uasset'
+[2018.12.03-23.23.27:117][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_RoughnessCE8C2A6C4A37ED4A6CC6CAB696AC82AB.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_fbm/1/initialShadingGroup_Roughness.uasset'
+[2018.12.03-23.23.27:182][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_MetallicAB324C9F4DD096C867F42D8CCD408F82.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_fbm/1/initialShadingGroup_Metallic.uasset'
+[2018.12.03-23.23.27:250][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Roughness8392D6454DFAEA534CAE408E2CE25E8E.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Roughness.uasset'
+[2018.12.03-23.23.27:317][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Metallic7B4EF88249525FC643D767966745EC90.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Metallic.uasset'
+[2018.12.03-23.23.27:390][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Roughness193D7E1443BAD02807AAB48FE1F59B71.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf_fbm/initialShadingGroup_Roughness.uasset'
+[2018.12.03-23.23.27:461][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_MetallicF9F100FE404FEC3B253B7BBF8BEC153D.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf_fbm/initialShadingGroup_Metallic.uasset'
+[2018.12.03-23.23.27:814][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Normal_OpenG114CF0844FC206EA748106B5474F6885.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench_fbm/initialShadingGroup_Normal_OpenGL.uasset'
+[2018.12.03-23.23.27:939][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Roughness8ED5629A4DCCAA24E183CDB201C1AFE3.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench_fbm/initialShadingGroup_Roughness.uasset'
+[2018.12.03-23.23.28:107][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Base_Color36C19497429A1B6E3FF3A8828788A00E.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench_fbm/initialShadingGroup_Base_Color.uasset'
+[2018.12.03-23.23.28:176][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_MetallicE059D33E4A2AB2A4639DB3B641C6A6FC.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench_fbm/initialShadingGroup_Metallic.uasset'
+[2018.12.03-23.23.28:367][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Normal44E3BDD4457254A6F925D48057EE1759.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv_fbm/initialShadingGroup_Normal.uasset'
+[2018.12.03-23.23.28:447][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_RoughnessC3F7EEAF4F4A1A211B9E40B275C7C7E8.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv_fbm/initialShadingGroup_Roughness.uasset'
+[2018.12.03-23.23.28:634][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Base_ColorF6213C2846CDD03F6D4C80B24A73F0D6.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv_fbm/initialShadingGroup_Base_Color.uasset'
+[2018.12.03-23.23.28:706][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_MetallicEB94C34147A32126989F4B8F6CBAB8E2.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv_fbm/initialShadingGroup_Metallic.uasset'
+[2018.12.03-23.23.29:011][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/pencil_Normal_initialShadingGrou472B538B48167A9B27AC539A5B48E260.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil_fbm/pencil_Normal_initialShadingGroup.uasset'
+[2018.12.03-23.23.29:088][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/pencil_Roughness_initialShadingG046F87F94890F8145A433194D0A82147.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil_fbm/pencil_Roughness_initialShadingGroup.uasset'
+[2018.12.03-23.23.29:292][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Base_Color6AEE21134663A66F4446F5B963E66F24.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil_fbm/initialShadingGroup_Base_Color.uasset'
+[2018.12.03-23.23.29:362][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_MetallicDF54B2224965AA87A69B30BFFDB390D7.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil_fbm/initialShadingGroup_Metallic.uasset'
+[2018.12.03-23.23.29:648][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Normal_OpenG304A3D8840BEE8B91E68ACA50B5AF126.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio_fbm/initialShadingGroup_Normal_OpenGL.uasset'
+[2018.12.03-23.23.29:892][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Base_Color5436A6C7460D7B607B52DA923F731730.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio_fbm/initialShadingGroup_Base_Color.uasset'
+[2018.12.03-23.23.29:962][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Metallic3B640F8F45948A067E79339E57872BBD.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio_fbm/initialShadingGroup_Metallic.uasset'
+[2018.12.03-23.23.30:104][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Roughness8C5A2F4B45BB57F1F9A5A5A86D4A20CE.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/mug_fbm/initialShadingGroup_Roughness.uasset'
+[2018.12.03-23.23.30:282][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/initialShadingGroup_Base_ColorB44A8DAB479AB97724BDAB87E99AC064.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/mug_fbm/initialShadingGroup_Base_Color.uasset'
+[2018.12.03-23.23.30:596][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/endtable_Normal_lambert1493468D042F68718B8B41192301F1664.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable_fbm/endtable_Normal_lambert1.uasset'
+[2018.12.03-23.23.30:767][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/lambert1_OpacityD081CED24E80622C6BACE5AC06BD86DC.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable_fbm/lambert1_Opacity.uasset'
+[2018.12.03-23.23.30:892][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/endtable_Roughness_lambert1132129334ED3B30180056E8221833A88.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable_fbm/endtable_Roughness_lambert1.uasset'
+[2018.12.03-23.23.31:084][334]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/endtable_Diffuse_lambert1100FFCB747195DC6F40BBE91878B22DA.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable_fbm/endtable_Diffuse_lambert1.uasset'
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/endtable_fbm/endtable_f0_lambert1.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/couch_fbm/couch_lambert1_Normal.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/couch_fbm/couch_lambert1_BaseColor.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/chair_fbm/couch_lambert1_Roughness.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Normal_OpenGL.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/cablebox_fbm/1/initialShadingGroup_Base_Color.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Normal.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Base_Color.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/bookshelf_fbm/initialShadingGroup_Normal.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/bookshelf_fbm/initialShadingGroup_Base_Color.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/endtable_fbm/endtable_Specular_lambert1.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/couch_fbm/couch_lambert1_Roughness.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/chair_fbm/couch_lambert1_Normal.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/chair_fbm/couch_lambert1_BaseColor.
+[2018.12.03-23.23.34:105][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/cablebox_fbm/1/initialShadingGroup_Roughness.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/cablebox_fbm/1/initialShadingGroup_Metallic.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Roughness.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/cablebox_fbm/initialShadingGroup_Metallic.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/bookshelf_fbm/initialShadingGroup_Roughness.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/bookshelf_fbm/initialShadingGroup_Metallic.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/wrench_fbm/initialShadingGroup_Normal_OpenGL.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/wrench_fbm/initialShadingGroup_Roughness.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/wrench_fbm/initialShadingGroup_Base_Color.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/wrench_fbm/initialShadingGroup_Metallic.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/tv_fbm/initialShadingGroup_Normal.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/tv_fbm/initialShadingGroup_Roughness.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/tv_fbm/initialShadingGroup_Base_Color.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/tv_fbm/initialShadingGroup_Metallic.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/pencil_fbm/pencil_Normal_initialShadingGroup.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/pencil_fbm/pencil_Roughness_initialShadingGroup.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/pencil_fbm/initialShadingGroup_Base_Color.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/pencil_fbm/initialShadingGroup_Metallic.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/oldradio_fbm/initialShadingGroup_Normal_OpenGL.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/oldradio_fbm/initialShadingGroup_Base_Color.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/oldradio_fbm/initialShadingGroup_Metallic.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/mug_fbm/initialShadingGroup_Roughness.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/mug_fbm/initialShadingGroup_Base_Color.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/endtable_fbm/endtable_Normal_lambert1.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/endtable_fbm/lambert1_Opacity.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/endtable_fbm/endtable_Roughness_lambert1.
+[2018.12.03-23.23.34:106][565]AssetReimport: Importing new asset /Game/Geometry/Meshes/endtable_fbm/endtable_Diffuse_lambert1.
+[2018.12.03-23.31.28:230][394]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.025
+[2018.12.03-23.31.28:232][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/bookshelf] ([1] browsable assets)...
+[2018.12.03-23.31.28:240][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/bookshelf.bookshelf]
+[2018.12.03-23.31.28:240][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/bookshelf]
+[2018.12.03-23.31.28:258][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/bookshelf_Auto1B31878764728409C88A2DA814CA52A71.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/bookshelf_Auto1.uasset'
+[2018.12.03-23.31.28:260][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/aiStandardSurface2] ([1] browsable assets)...
+[2018.12.03-23.31.28:270][394]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/aiStandardSurface2.aiStandardSurface2]
+[2018.12.03-23.31.28:270][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/aiStandardSurface2]
+[2018.12.03-23.31.28:286][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/aiStandardSurface2_Auto1ADA5AAA74BBC447034FB34B0F4CF6A47.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/aiStandardSurface2_Auto1.uasset'
+[2018.12.03-23.31.28:289][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/cablebox_pCube1] ([1] browsable assets)...
+[2018.12.03-23.31.28:298][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/cablebox_pCube1.cablebox_pCube1]
+[2018.12.03-23.31.28:298][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/cablebox_pCube1]
+[2018.12.03-23.31.28:315][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/cablebox_pCube1_Auto1DC6D981349FC81C02A4E36BD922FF5F1.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/cablebox_pCube1_Auto1.uasset'
+[2018.12.03-23.31.28:318][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/cablebox_pCube2] ([1] browsable assets)...
+[2018.12.03-23.31.28:328][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/cablebox_pCube2.cablebox_pCube2]
+[2018.12.03-23.31.28:328][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/cablebox_pCube2]
+[2018.12.03-23.31.28:347][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/cablebox_pCube2_Auto14C337898433F686C4CF959926529FA67.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/cablebox_pCube2_Auto1.uasset'
+[2018.12.03-23.31.28:350][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/aiStandardSurface3] ([1] browsable assets)...
+[2018.12.03-23.31.28:360][394]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/aiStandardSurface3.aiStandardSurface3]
+[2018.12.03-23.31.28:360][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/aiStandardSurface3]
+[2018.12.03-23.31.28:377][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/aiStandardSurface3_Auto1E1C5D0AC4D7D386C0F31FDA41C21F90A.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/aiStandardSurface3_Auto1.uasset'
+[2018.12.03-23.31.28:380][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/chair_pCube6] ([1] browsable assets)...
+[2018.12.03-23.31.28:391][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/chair_pCube6.chair_pCube6]
+[2018.12.03-23.31.28:392][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/chair_pCube6]
+[2018.12.03-23.31.28:408][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/chair_pCube6_Auto1FCAFA16F4ABCA3293FF07B9B5DC3D508.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/chair_pCube6_Auto1.uasset'
+[2018.12.03-23.31.28:411][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/aiStandardSurface1] ([1] browsable assets)...
+[2018.12.03-23.31.28:420][394]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Geometry/Meshes/aiStandardSurface1.aiStandardSurface1]
+[2018.12.03-23.31.28:420][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/aiStandardSurface1]
+[2018.12.03-23.31.28:439][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/aiStandardSurface1_Auto1FA872B184B48F1329EA358A9EECDEF16.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/aiStandardSurface1_Auto1.uasset'
+[2018.12.03-23.31.28:442][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/chair_pCube7] ([1] browsable assets)...
+[2018.12.03-23.31.28:452][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/chair_pCube7.chair_pCube7]
+[2018.12.03-23.31.28:452][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/chair_pCube7]
+[2018.12.03-23.31.28:477][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/chair_pCube7_Auto13C26E4D34D1A3AD7932FA3BDCED004CB.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/chair_pCube7_Auto1.uasset'
+[2018.12.03-23.31.28:481][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/couch_pCube6] ([1] browsable assets)...
+[2018.12.03-23.31.28:490][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/couch_pCube6.couch_pCube6]
+[2018.12.03-23.31.28:490][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/couch_pCube6]
+[2018.12.03-23.31.28:509][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_pCube6_Auto19C6C9A644C006D96126939AEC180AAC1.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/couch_pCube6_Auto1.uasset'
+[2018.12.03-23.31.28:513][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/couch_pCube7] ([1] browsable assets)...
+[2018.12.03-23.31.28:522][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/couch_pCube7.couch_pCube7]
+[2018.12.03-23.31.28:522][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/couch_pCube7]
+[2018.12.03-23.31.28:540][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_pCube7_Auto17ACAD5DB4BD1E069231CF7BF0AC3CBAB.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/couch_pCube7_Auto1.uasset'
+[2018.12.03-23.31.28:542][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/endtable_pCube5] ([1] browsable assets)...
+[2018.12.03-23.31.28:552][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/endtable_pCube5.endtable_pCube5]
+[2018.12.03-23.31.28:552][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/endtable_pCube5]
+[2018.12.03-23.31.28:569][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/endtable_pCube5_Auto1D4E72C91491F79F55F898C81354ADF24.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/endtable_pCube5_Auto1.uasset'
+[2018.12.03-23.31.28:572][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/mug_pCylinder1] ([1] browsable assets)...
+[2018.12.03-23.31.28:581][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/mug_pCylinder1.mug_pCylinder1]
+[2018.12.03-23.31.28:581][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/mug_pCylinder1]
+[2018.12.03-23.31.28:599][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/mug_pCylinder1_Auto1B35C6E6E4D19C69327DDBDA550D0AA60.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/mug_pCylinder1_Auto1.uasset'
+[2018.12.03-23.31.28:602][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/oldradio_pPrism1] ([1] browsable assets)...
+[2018.12.03-23.31.28:611][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/oldradio_pPrism1.oldradio_pPrism1]
+[2018.12.03-23.31.28:611][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/oldradio_pPrism1]
+[2018.12.03-23.31.28:629][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/oldradio_pPrism1_Auto10282E05340E9B28B243F58BE25941B83.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/oldradio_pPrism1_Auto1.uasset'
+[2018.12.03-23.31.28:633][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/pencil_pCylinder1] ([1] browsable assets)...
+[2018.12.03-23.31.28:645][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/pencil_pCylinder1.pencil_pCylinder1]
+[2018.12.03-23.31.28:645][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/pencil_pCylinder1]
+[2018.12.03-23.31.28:664][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/pencil_pCylinder1_Auto14DE36D6648245CE35483DB9DDFA1CEB8.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/pencil_pCylinder1_Auto1.uasset'
+[2018.12.03-23.31.28:668][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/tv_pCube1] ([1] browsable assets)...
+[2018.12.03-23.31.28:678][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/tv_pCube1.tv_pCube1]
+[2018.12.03-23.31.28:678][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/tv_pCube1]
+[2018.12.03-23.31.28:696][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/tv_pCube1_Auto1A54B643A4DDB3EBDA6B51FA63A854DB0.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/tv_pCube1_Auto1.uasset'
+[2018.12.03-23.31.28:700][394]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Geometry/Meshes/wrench_pCube2] ([1] browsable assets)...
+[2018.12.03-23.31.28:709][394]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Geometry/Meshes/wrench_pCube2.wrench_pCube2]
+[2018.12.03-23.31.28:709][394]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/wrench_pCube2]
+[2018.12.03-23.31.28:727][394]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/wrench_pCube2_Auto1F013F3B4407388A6FECE1A8C930B6512.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/Autosaves/Game/Geometry/Meshes/wrench_pCube2_Auto1.uasset'
+[2018.12.03-23.31.28:730][394]LogFileHelpers: Auto-saving content packages took 0.498
+[2018.12.04-00.34.39:471][934]LogSlate: Window 'Message Log' being destroyed
+[2018.12.04-00.34.39:476][934]LogSlate: Window 'Message Log' being destroyed
+[2018.12.04-00.34.40:251][  3]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/FirstPersonExampleMap13AE14E34EB88C1ACC91D9B9B5A0E2D6.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.12.04-00.34.40:309][  3]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/FirstPersonExampleMap_BuiltData87B45F3E45A4FE95196889BF741BC97D.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.12.04-00.34.45:231][141]LogSlate: Window 'Save Content' being destroyed
+[2018.12.04-00.34.45:262][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/aiStandardSurface181C322044658BA4E3AD08CA9E8447AD0.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/aiStandardSurface1.uasset'
+[2018.12.04-00.34.45:283][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/aiStandardSurface2D7D183054720A9C4ADD1B6B6DF2A0010.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/aiStandardSurface2.uasset'
+[2018.12.04-00.34.45:306][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/aiStandardSurface36BDC71AF459FE17DC0788395675C0323.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/aiStandardSurface3.uasset'
+[2018.12.04-00.34.45:318][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/bookshelf" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf.uasset" SILENT=true
+[2018.12.04-00.34.45:329][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/bookshelf8C1A00974A4116423CFA25ACDA95483F.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/bookshelf.uasset'
+[2018.12.04-00.34.45:341][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/cablebox_pCube1" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_pCube1.uasset" SILENT=true
+[2018.12.04-00.34.45:352][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/cablebox_pCube1FB9BD9434486BE964DC153855EF73A28.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_pCube1.uasset'
+[2018.12.04-00.34.45:366][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/cablebox_pCube2" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_pCube2.uasset" SILENT=true
+[2018.12.04-00.34.45:376][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/cablebox_pCube29E5E4D964616E9DC419EDD96058AB499.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/cablebox_pCube2.uasset'
+[2018.12.04-00.34.45:388][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/chair_pCube6" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair_pCube6.uasset" SILENT=true
+[2018.12.04-00.34.45:400][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/chair_pCube6B4BBF9244289DF0822E2E7B28DB300F5.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair_pCube6.uasset'
+[2018.12.04-00.34.45:412][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/chair_pCube7" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair_pCube7.uasset" SILENT=true
+[2018.12.04-00.34.45:423][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/chair_pCube78A9C1F464E1062C916565D878810B839.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/chair_pCube7.uasset'
+[2018.12.04-00.34.45:435][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/couch_pCube6" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch_pCube6.uasset" SILENT=true
+[2018.12.04-00.34.45:446][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_pCube616AAD5FC459741CA937639BFCFC29870.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch_pCube6.uasset'
+[2018.12.04-00.34.45:459][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/couch_pCube7" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch_pCube7.uasset" SILENT=true
+[2018.12.04-00.34.45:470][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/couch_pCube7FD4C1B0D4DEC52E96D0A08BB32483F5F.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/couch_pCube7.uasset'
+[2018.12.04-00.34.45:482][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/endtable_pCube5" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable_pCube5.uasset" SILENT=true
+[2018.12.04-00.34.45:495][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/endtable_pCube5E1FD07974213E31D951E04B938243D27.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/endtable_pCube5.uasset'
+[2018.12.04-00.34.45:510][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/mug_pCylinder1" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/mug_pCylinder1.uasset" SILENT=true
+[2018.12.04-00.34.45:520][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/mug_pCylinder1422678D74D831A65B81D22B7B9604554.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/mug_pCylinder1.uasset'
+[2018.12.04-00.34.45:532][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/oldradio_pPrism1" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio_pPrism1.uasset" SILENT=true
+[2018.12.04-00.34.45:543][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/oldradio_pPrism19110766A40B7DB116D565BA5BFB098DC.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/oldradio_pPrism1.uasset'
+[2018.12.04-00.34.45:565][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/pencil_pCylinder1D4F063984B7F9D361B755F87DE4C8F29.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/pencil_pCylinder1.uasset'
+[2018.12.04-00.34.45:576][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/tv_pCube1" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv_pCube1.uasset" SILENT=true
+[2018.12.04-00.34.45:587][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/tv_pCube1F49AD93E4000B02E973688A6E3F9EEBC.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/tv_pCube1.uasset'
+[2018.12.04-00.34.45:597][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/wrench_pCube2" FILE="../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench_pCube2.uasset" SILENT=true
+[2018.12.04-00.34.45:607][141]LogSavePackage: Moving '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Saved/wrench_pCube2A91751FE4C076D9D35C94EB30DA9940C.tmp' to '../../../../../../Users/wwwsp/Desktop/GAMEDEV/GD_project4/project4/Content/Geometry/Meshes/wrench_pCube2.uasset'
+[2018.12.04-00.34.45:696][141]LogSlate: Window 'project4 - Unreal Editor' being destroyed
+[2018.12.04-00.34.45:703][141]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2018.12.04-00.34.45:957][142]Cmd: QUIT_EDITOR
+[2018.12.04-00.34.45:997][142]LogExit: Preparing to exit.
+[2018.12.04-00.34.47:040][142]LogExit: Editor shut down
+[2018.12.04-00.34.47:040][142]LogExit: Transaction tracking system shut down
+[2018.12.04-00.34.47:537][142]LogExit: Object subsystem successfully closed.
+[2018.12.04-00.34.47:556][142]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.04-00.34.47:559][142]LogD3D11RHI: Shutdown
+[2018.12.04-00.34.47:559][142]LogD3D11RHI: CleanupD3DDevice
+[2018.12.04-00.34.47:562][142]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.04-00.34.47:576][142]LogModuleManager: Shutting down and abandoning module MeshBuilder (612)
+[2018.12.04-00.34.47:576][142]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.12.04-00.34.47:576][142]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.12.04-00.34.47:576][142]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.12.04-00.34.47:578][142]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.12.04-00.34.47:579][142]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.12.04-00.34.48:057][142]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.12.04-00.34.48:058][142]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.12.04-00.34.48:058][142]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.12.04-00.34.48:058][142]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.12.04-00.34.48:058][142]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.12.04-00.34.48:058][142]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.12.04-00.34.48:058][142]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.12.04-00.34.48:058][142]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.12.04-00.34.48:058][142]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.12.04-00.34.48:058][142]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.12.04-00.34.48:113][142]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.12.04-00.34.48:114][142]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.12.04-00.34.48:276][142]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.12.04-00.34.48:279][142]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.12.04-00.34.48:280][142]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.12.04-00.34.48:281][142]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.12.04-00.34.48:382][142]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.12.04-00.34.48:483][142]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.12.04-00.34.48:484][142]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.12.04-00.34.48:485][142]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.12.04-00.34.48:485][142]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.12.04-00.34.48:485][142]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.12.04-00.34.48:485][142]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.12.04-00.34.48:485][142]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.12.04-00.34.48:485][142]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.12.04-00.34.48:487][142]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.12.04-00.34.48:493][142]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.12.04-00.34.48:496][142]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.12.04-00.34.48:507][142]LogDerivedDataCache: Shutdown
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.12.04-00.34.48:507][142]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.12.04-00.34.48:508][142]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.12.04-00.34.48:509][142]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.12.04-00.34.48:509][142]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.12.04-00.34.48:514][142]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.12.04-00.34.48:515][142]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.12.04-00.34.48:515][142]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.12.04-00.34.48:540][142]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.12.04-00.34.48:540][142]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.04-00.34.48:540][142]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1E86F814-496A-ED8B-C8D8-9FA824201B81%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=4dda417948e7346b8feb3aa896e39264%7C1a688d8563ef4acbb1486baeb1aa2746%7C534702b6-b9e1-40f4-a54f-7fc870b2148b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.04-00.34.48:575][142]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.12.04-00.34.48:576][142]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.04-00.34.48:576][142]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.04-00.34.48:583][142]LogExit: Exiting.
+[2018.12.04-00.34.48:606][142]Log file closed, 12/03/18 19:34:48
