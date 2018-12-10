@@ -1337,3 +1337,680 @@ LogInit: Object subsystem initialized
 [2018.12.10-21.19.35:760][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2018.12.10-21.19.36:612][896]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/HouseAE3127AD4A75E55DB840E4892F330C48.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/House.umap'
 [2018.12.10-21.19.37:760][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.26.16:934][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.26.22:339][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.27.19:305][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.27.19:455][810]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-21.27.19:472][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/House.House:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/House.House:PersistentLevel.House' with GeneratedClass '/Game/Maps/House.House_C' with ClassGeneratedBy '/Game/Maps/House.House:PersistentLevel.House'
+[2018.12.10-21.27.19:474][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-21.27.19:474][810]PIE: New page: PIE session: House (Dec 10, 2018, 11:27:19 AM)
+[2018.12.10-21.27.19:474][810]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_House
+[2018.12.10-21.27.19:523][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049192s)
+[2018.12.10-21.27.19:524][810]LogAIModule: Creating AISystem for world House
+[2018.12.10-21.27.19:525][810]LogPlayLevel: PIE: World Init took: (0.001994s)
+[2018.12.10-21.27.19:525][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.051428s)
+[2018.12.10-21.27.19:609][810]LogInit: XAudio2 using 'Headphones (MJY Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-21.27.19:621][810]LogInit: FAudioDevice initialized.
+[2018.12.10-21.27.19:653][810]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.10-21.27.19:676][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2018.12.10-16.27.19
+[2018.12.10-21.27.19:677][810]LogWorld: Bringing up level for play took: 0.016235
+[2018.12.10-21.27.19:694][810]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_House -0.413
+[2018.12.10-21.27.19:694][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/House.House:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/House.House:PersistentLevel.House' with GeneratedClass '/Game/Maps/House.House_C' with ClassGeneratedBy '/Game/Maps/House.House:PersistentLevel.House'
+[2018.12.10-21.27.46:977][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/House.House:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/House.House:PersistentLevel.House' with GeneratedClass '/Game/Maps/House.House_C' with ClassGeneratedBy '/Game/Maps/House.House:PersistentLevel.House'
+[2018.12.10-21.27.46:978][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-21.27.47:009][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-21.27.47:009][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/House.House:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/House.House:PersistentLevel.House' with GeneratedClass '/Game/Maps/House.House_C' with ClassGeneratedBy '/Game/Maps/House.House:PersistentLevel.House'
+[2018.12.10-21.27.47:029][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-21.27.47:078][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.12.10-21.27.56:329][182]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.56:329][182]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.56:357][182]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.56:737][221]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.56:737][221]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.56:755][221]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.57:016][247]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.57:016][247]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.57:038][247]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.57:355][283]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.57:355][283]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.57:373][283]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.57:630][312]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.57:630][312]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.57:651][312]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.57:834][332]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.57:834][332]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.57:852][332]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.58:049][354]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.58:049][354]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.58:072][354]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.58:259][375]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.58:259][375]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.58:275][375]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.58:446][394]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.58:446][394]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.58:462][394]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.58:691][419]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.58:691][419]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.58:712][419]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.58:918][440]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.58:918][440]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.58:937][440]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.59:161][463]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.59:161][463]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.59:177][463]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.59:410][489]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.59:410][489]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.59:425][489]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.59:642][511]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.59:642][511]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.59:662][511]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.27.59:915][537]Cmd: TRANSACTION UNDO
+[2018.12.10-21.27.59:916][537]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.27.59:933][537]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.00:258][572]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.00:258][572]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.00:278][572]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.00:595][608]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.00:595][608]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.00:612][608]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.00:788][627]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.00:788][627]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.00:803][627]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.00:982][647]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.00:982][647]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.01:004][647]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.01:431][696]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.01:431][696]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.01:448][696]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.01:662][720]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.01:662][720]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.01:678][720]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.01:864][738]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.01:864][738]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.01:880][738]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.02:077][760]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.02:077][760]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.02:093][760]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.02:290][782]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.02:290][782]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.02:307][782]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.12.10-21.28.08:672][528]Cmd: TRANSACTION UNDO
+[2018.12.10-21.28.08:672][528]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.12.10-21.28.12:140][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.30.03:479][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/Autosaves/Game/Maps/House_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.12.10-21.30.04:213][471]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/House_Auto928225E8D44E8FD8EF00FDA881C93DECD.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/Autosaves/Game/Maps/House_Auto9.umap'
+[2018.12.10-21.30.04:219][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/House' took 0.761
+[2018.12.10-21.30.04:220][471]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.761
+[2018.12.10-21.40.04:286][260]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/House' took 0.018
+[2018.12.10-21.40.27:994][997]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.12.10-21.41.02:193][ 41]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.12.10-21.41.10:010][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.41.29:476][239]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.12.10-21.41.30:248][330]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.12.10-21.41.34:960][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.41.35:027][898]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-21.41.35:038][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/House.House:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/House.House:PersistentLevel.House' with GeneratedClass '/Game/Maps/House.House_C' with ClassGeneratedBy '/Game/Maps/House.House:PersistentLevel.House'
+[2018.12.10-21.41.35:038][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-21.41.35:038][898]PIE: New page: PIE session: House (Dec 10, 2018, 11:41:35 AM)
+[2018.12.10-21.41.35:038][898]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_House
+[2018.12.10-21.41.35:070][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031837s)
+[2018.12.10-21.41.35:070][898]LogAIModule: Creating AISystem for world House
+[2018.12.10-21.41.35:071][898]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2018.12.10-21.41.35:071][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.032643s)
+[2018.12.10-21.41.35:127][898]LogInit: XAudio2 using 'Headphones (MJY Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-21.41.35:139][898]LogInit: FAudioDevice initialized.
+[2018.12.10-21.41.35:168][898]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.10-21.41.35:178][898]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2018.12.10-16.41.35
+[2018.12.10-21.41.35:178][898]LogWorld: Bringing up level for play took: 0.008845
+[2018.12.10-21.41.35:192][898]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_House 1.086
+[2018.12.10-21.41.35:192][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/House.House:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/House.House:PersistentLevel.House' with GeneratedClass '/Game/Maps/House.House_C' with ClassGeneratedBy '/Game/Maps/House.House:PersistentLevel.House'
+[2018.12.10-21.42.28:496][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/House.House:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/House.House:PersistentLevel.House' with GeneratedClass '/Game/Maps/House.House_C' with ClassGeneratedBy '/Game/Maps/House.House:PersistentLevel.House'
+[2018.12.10-21.42.28:496][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-21.42.28:528][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-21.42.28:528][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/House.House:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/House.House:PersistentLevel.House' with GeneratedClass '/Game/Maps/House.House_C' with ClassGeneratedBy '/Game/Maps/House.House:PersistentLevel.House'
+[2018.12.10-21.42.28:549][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-21.42.28:602][294]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.12.10-21.45.08:061][321]LogEditorViewport: Clicking on Actor (LMB): Actor (Cousin Event Trigger)
+[2018.12.10-21.45.15:060][143]LogEditorViewport: Clicking on Actor (LMB): Actor (Pencil_hint)
+[2018.12.10-21.45.20:789][805]LogEditorViewport: Clicking on Actor (LMB): Actor (Obstacle1)
+[2018.12.10-21.45.44:417][574]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.12.10-21.51.12:211][  1]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-21.51.12:241][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/Autosaves/Game/Maps/House_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.12.10-21.51.12:949][  1]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/House_Auto00BD2F8CE4656042418DFBA81A7E20CED.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/Autosaves/Game/Maps/House_Auto0.umap'
+[2018.12.10-21.51.12:955][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/House' took 0.734
+[2018.12.10-21.51.12:955][  1]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.734
+[2018.12.10-21.51.15:602][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.51.22:710][125]LogLinker: Warning: Can't find file '/Game/Maps/testHouse_BuiltData'
+[2018.12.10-21.51.22:710][125]LogLinker: Warning: Can't find file for asset '/Game/Maps/testHouse_BuiltData' while loading C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/testHouse.umap.
+[2018.12.10-21.51.22:710][125]LoadErrors: Error: /Game/Maps/testHouse : Can't find file for asset. /Game/Maps/testHouse_BuiltData
+[2018.12.10-21.51.22:744][125]LogLinker: Warning: Can't find file '/Game/Maps/testHouse_BuiltData'
+[2018.12.10-21.51.22:744][125]LogLinker: Warning: Can't find file for asset '/Game/Maps/testHouse_BuiltData' while loading C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/testHouse.umap.
+[2018.12.10-21.51.22:754][125]LogLinker: Warning: Can't find file '/Game/Maps/testHouse_BuiltData'
+[2018.12.10-21.51.22:754][125]LoadErrors: Failed to load /Game/Maps/testHouse_BuiltData.testHouse_BuiltData Referenced by PersistentLevel
+[2018.12.10-21.51.22:755][125]LogLinker: Warning: Can't find file for asset '/Game/Maps/testHouse_BuiltData' while loading NULL.
+[2018.12.10-21.51.22:763][125]LogTexture: Display: Building textures: initialShadingGroup_Roughness (AutoDXT, 2048X2048)
+[2018.12.10-21.51.22:763][125]LogStaticMesh: Building static mesh vase...
+[2018.12.10-21.51.22:779][125]LogTexture: Display: Building textures: initialShadingGroup_Metallic (AutoDXT, 2048X2048)
+[2018.12.10-21.51.22:779][125]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/vase.vase
+[2018.12.10-21.51.22:786][125]LogStaticMesh: Building static mesh housetest...
+[2018.12.10-21.51.22:795][125]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/housetest.housetest
+[2018.12.10-21.51.22:801][125]LogMaterial: Display: Missing cached shader map for material polySurface1Mat, compiling. 
+[2018.12.10-21.51.22:981][125]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.10-21.51.22:981][125]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.10-21.51.22:981][125]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.10-21.51.22:981][125]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.10-21.51.22:981][125]LogTexture: Display: Building textures: initialShadingGroup_Base_Color (AutoDXT, 2048X2048)
+[2018.12.10-21.51.23:161][125]LogTexture: Display: Building textures: initialShadingGroup_Normal_OpenGL (BC5, 2048X2048)
+[2018.12.10-21.51.23:161][125]LogMaterial: Display: Missing cached shader map for material Vase, compiling. 
+[2018.12.10-21.51.23:175][125]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.10-21.51.23:175][125]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.10-21.51.23:175][125]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.10-21.51.23:175][125]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.10-21.51.23:175][125]LogAIModule: Creating AISystem for world testHouse
+[2018.12.10-21.51.23:188][125]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/testHouse.testHouse
+[2018.12.10-21.51.26:419][125]LogSlate: Window 'Save Content' being destroyed
+[2018.12.10-21.51.26:509][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.10-21.51.27:249][125]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/House5964609244F4C23E58FE828E4A413973.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/House.umap'
+[2018.12.10-21.51.27:284][125]LogFileHelpers: Saving map 'House' took 0.858
+[2018.12.10-21.51.27:285][125]Cmd: MAP LOAD FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/testHouse.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.10-21.51.27:285][125]LightingResults: New page: Lighting Build
+[2018.12.10-21.51.27:285][125]LoadErrors: New page: Loading map: testHouse.umap
+[2018.12.10-21.51.27:288][125]MapCheck: New page: Map Check
+[2018.12.10-21.51.27:288][125]LightingResults: New page: Lighting Build
+[2018.12.10-21.51.27:334][125]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.10-21.51.27:369][125]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.10-21.51.27:458][125]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88.213ms to complete.
+[2018.12.10-21.51.27:458][125]LogFileHelpers: Loading map 'testHouse' took 0.175
+[2018.12.10-21.51.40:795][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.51.50:289][845]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-21.52.00:222][ 22]Cmd: TRANSACTION UNDO
+[2018.12.10-21.52.00:223][ 22]LogEditorTransaction: Undo Move Actors
+[2018.12.10-21.52.01:341][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.52.02:039][236]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.12.10-21.52.04:351][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.52.22:270][657]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-21.53.02:675][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-21.53.05:396][772]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.10-21.53.06:380][889]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.10-21.53.06:886][949]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.10-21.53.07:688][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-21.53.09:208][225]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-21.53.09:841][300]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.00.49:894][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.00.58:360][764]LogEditorActor: Deleted Actor: SkyLight
+[2018.12.10-22.00.58:378][764]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.12.10-22.01.20:150][368]Cmd: DELETE
+[2018.12.10-22.01.20:150][368]Cmd: ACTOR DELETE
+[2018.12.10-22.01.20:152][368]LogEditorActor: Deleted Actor: PointLight
+[2018.12.10-22.01.20:170][368]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.12.10-22.01.21:038][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.02.01:236][670]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.02.15:135][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.02.49:133][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.03.39:242][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testHouse" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/Autosaves/Game/Maps/testHouse_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.12.10-22.03.39:305][ 29]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/testHouse_Auto1A57051B24AA83773F22B0194481A358C.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/Autosaves/Game/Maps/testHouse_Auto1.umap'
+[2018.12.10-22.03.39:314][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/testHouse' took 0.094
+[2018.12.10-22.03.39:314][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.094
+[2018.12.10-22.06.25:953][ 53]LogSlate: Window 'New Level' being destroyed
+[2018.12.10-22.06.28:510][ 53]LogSlate: Window 'Save Content' being destroyed
+[2018.12.10-22.06.28:614][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/testHouse" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/testHouse.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.10-22.06.28:694][ 53]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/testHouse58DC23234B8593B777EC03893A03ECCA.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/testHouse.umap'
+[2018.12.10-22.06.28:718][ 53]LogFileHelpers: Saving map 'testHouse' took 0.194
+[2018.12.10-22.06.28:722][ 53]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.10-22.06.28:736][ 53]LightingResults: New page: Lighting Build
+[2018.12.10-22.06.28:737][ 53]LoadErrors: New page: Loading map: Template_Default.umap
+[2018.12.10-22.06.28:742][ 53]MapCheck: New page: Map Check
+[2018.12.10-22.06.28:742][ 53]LightingResults: New page: Lighting Build
+[2018.12.10-22.06.28:778][ 53]LogAIModule: Creating AISystem for world Untitled_1
+[2018.12.10-22.06.28:785][ 53]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.10-22.06.28:812][ 53]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.10-22.06.28:905][ 53]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.838ms to complete.
+[2018.12.10-22.06.28:905][ 53]LogFileHelpers: Loading map 'Template_Default' took 0.183
+[2018.12.10-22.06.39:917][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.07.01:843][849]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.07.14:508][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.07.41:052][990]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.08.17:530][903]Cmd: TRANSACTION UNDO
+[2018.12.10-22.08.17:530][903]LogEditorTransaction: Undo Edit Refresh Material
+[2018.12.10-22.08.20:408][247]Cmd: TRANSACTION UNDO
+[2018.12.10-22.08.20:408][247]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.10-22.08.22:627][511]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.08.26:199][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.08.30:324][429]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.08.35:587][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.08.36:850][932]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.08.38:240][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.08.38:731][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.10-22.08.47:847][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.08.57:119][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.09.00:002][539]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.09.11:242][866]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.09.11:924][929]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.09.12:389][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.10-22.09.23:321][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.09.48:773][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.10.31:575][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.10-22.10.33:618][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.10-22.10.34:385][869]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.10.34:990][939]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.10.37:107][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.12.29:929][886]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.10-22.12.44:524][635]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.10-22.13.01:586][680]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.10-22.13.15:054][294]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.10-22.14.08:208][779]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.14.21:569][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.14.42:635][600]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.14.50:332][339]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.16.13:103][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.16.22:419][145]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.12.10-22.16.23:310][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.10-22.16.29:764][ 21]Cmd: TRANSACTION UNDO
+[2018.12.10-22.16.29:764][ 21]LogEditorTransaction: Undo Move Actors
+[2018.12.10-22.16.31:795][263]Cmd: TRANSACTION UNDO
+[2018.12.10-22.16.31:796][263]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.10-22.16.49:697][631]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.17.24:133][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.12.10-22.17.24:166][823]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/Untitled_1_Auto20E10909249DDB8C24908E08FCE90A29F.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2018.12.10-22.17.24:174][823]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.063
+[2018.12.10-22.17.24:174][823]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2018.12.10-22.17.38:057][865]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.18.00:484][922]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.18.02:762][191]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.18.04:373][381]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.12.10-22.18.05:324][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.18.17:619][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.18.46:538][516]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.19.02:608][536]MapCheck: New page: Map Check
+[2018.12.10-22.19.02:673][536]Cmd: MAP REBUILD ALLVISIBLE
+[2018.12.10-22.19.02:674][536]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.12.10-22.19.02:731][536]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.12.10-22.19.02:744][536]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.12.10-22.19.03:288][536]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.10-22.19.03:288][536]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.10-22.19.03:288][536]TextureStreamingBuild: Display: Compiling optional shaders took 0.574 seconds.
+[2018.12.10-22.19.03:317][536]LogLevel: Display: Export Material TexCoord Scales took 0.028 seconds.
+[2018.12.10-22.19.03:328][536]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.12.10-22.19.03:359][536]LightingResults: New page: Lighting Build - Dec 10, 2018, 12:19:03 PM
+[2018.12.10-22.19.03:449][536]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.12.10-22.19.03:583][536]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.12.10-22.19.03:594][536]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.12.10-22.19.04:107][536]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.12.10-22.19.04:108][536]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15764
+[2018.12.10-22.19.06:442][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.12.10-22.19.06:442][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.12.10-22.19.06:442][536]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.12.10-22.19.06:442][536]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.12.10-22.19.06:442][536]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.12.10-22.19.06:589][536]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.12.10-22.19.06:589][536]MapCheck: New page: Untitled_1 - Dec 10, 2018, 12:19:06 PM
+[2018.12.10-22.19.06:590][536]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.12.10-22.19.06:690][536]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 100.686ms to complete.
+[2018.12.10-22.19.06:713][536]LogEditorBuildUtils: Build time 0:04
+[2018.12.10-22.19.06:763][536]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.12.10-22.19.06:768][536]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.12.10-22.19.06:812][536]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.10-22.19.06:828][537]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2018.12.10-22.19.06:833][537]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.10-22.19.06:833][537]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2018.12.10-22.19.06:846][537]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.10-22.19.06:854][538]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.12.10-22.19.06:862][538]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.10-22.19.06:862][538]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.12.10-22.19.06:874][538]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.10-22.19.09:348][647]Job is a success!
+[2018.12.10-22.19.09:406][648]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.015s
+[2018.12.10-22.19.09:406][648]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.12.10-22.19.09:406][648]LogVolumetricLightmapImport:      BrickData 10x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.12.10-22.19.09:406][648]LogVolumetricLightmapImport:      Bricks at Level
+[2018.12.10-22.19.09:406][648]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2018.12.10-22.19.09:406][648]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2018.12.10-22.19.09:406][648]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.12.10-22.19.09:459][648]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.12.10-22.19.09:459][648]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.12.10-22.19.09:459][648]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.12.10-22.19.09:459][648]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.12.10-22.19.09:459][648]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.12.10-22.19.09:459][648]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2018.12.10-22.19.09:483][648]Lightmass on DESKTOP-1MGU58P: 1.20 sec total, 72 ms importing, 4 ms setup, 696 ms photons, 393 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 3.83 sec total, 78 ms processing.
+[2018.12.10-22.19.09:520][648]LogStaticLightingSystem: Illumination: 6.14 sec (21 ms encoding lightmaps, 12 ms encoding shadowmaps)
+[2018.12.10-22.19.09:520][648]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.12.10-22.19.09:520][648]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.12.10-22.19.10:439][648]DumpUnbuiltLightIteractions
+[2018.12.10-22.19.10:440][648]Lights with unbuilt interactions: 0
+[2018.12.10-22.19.10:440][648]
+[2018.12.10-22.19.10:440][648]Primitives with unbuilt interactions: 0
+[2018.12.10-22.19.10:495][649]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.12.10-22.19.10:495][649]MapCheck: New page: Untitled_1 - Dec 10, 2018, 12:19:10 PM
+[2018.12.10-22.19.10:592][649]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.872ms to complete.
+[2018.12.10-22.19.12:592][889]LogSlate: Window 'Message Log' being destroyed
+[2018.12.10-22.19.12:596][889]LogSlate: Window 'Message Log' being destroyed
+[2018.12.10-22.19.17:848][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.19.17:940][524]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-22.19.17:950][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-22.19.17:950][524]PIE: New page: PIE session: Untitled_1 (Dec 10, 2018, 12:19:17 PM)
+[2018.12.10-22.19.17:950][524]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.12.10-22.19.17:952][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002222s)
+[2018.12.10-22.19.17:953][524]LogAIModule: Creating AISystem for world Untitled_1
+[2018.12.10-22.19.17:953][524]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2018.12.10-22.19.17:953][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002885s)
+[2018.12.10-22.19.18:007][524]LogInit: XAudio2 using 'Headphones (MJY Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-22.19.18:017][524]LogInit: FAudioDevice initialized.
+[2018.12.10-22.19.18:044][524]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.10-22.19.18:045][524]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.12.10-17.19.18
+[2018.12.10-22.19.18:046][524]LogWorld: Bringing up level for play took: 0.000457
+[2018.12.10-22.19.18:059][524]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.047
+[2018.12.10-22.19.22:025][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-22.19.22:055][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-22.19.22:074][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-22.19.22:129][  3]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.12.10-22.20.08:275][674]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.20.09:803][853]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.12.10-22.20.12:644][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.22.24:688][339]MapCheck: New page: Map Check
+[2018.12.10-22.22.24:696][339]Cmd: MAP REBUILD ALLVISIBLE
+[2018.12.10-22.22.24:697][339]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.12.10-22.22.24:726][339]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.12.10-22.22.24:730][339]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.12.10-22.22.25:312][339]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.10-22.22.25:312][339]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.10-22.22.25:312][339]TextureStreamingBuild: Display: Compiling optional shaders took 0.588 seconds.
+[2018.12.10-22.22.25:315][339]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.12.10-22.22.25:320][339]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2018.12.10-22.22.25:337][339]LightingResults: New page: Lighting Build - Dec 10, 2018, 12:22:25 PM
+[2018.12.10-22.22.25:345][339]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.12.10-22.22.25:349][339]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.12.10-22.22.25:349][339]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.12.10-22.22.25:350][339]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.12.10-22.22.25:350][339]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15764
+[2018.12.10-22.22.29:901][339]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.12.10-22.22.29:901][339]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.12.10-22.22.29:901][339]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.12.10-22.22.29:901][339]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.12.10-22.22.29:901][339]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.12.10-22.22.29:971][339]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.12.10-22.22.29:971][339]MapCheck: New page: Untitled_1 - Dec 10, 2018, 12:22:29 PM
+[2018.12.10-22.22.30:062][339]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.619ms to complete.
+[2018.12.10-22.22.30:086][339]LogEditorBuildUtils: Build time 0:05
+[2018.12.10-22.22.31:538][441]Job is a success!
+[2018.12.10-22.22.41:723][175]LogSlate: Window 'Save Level As' being destroyed
+[2018.12.10-22.22.41:822][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.10-22.22.41:866][175]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/NewMapA4D4BA93436A88F028B6749339CA0585.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/NewMap.umap'
+[2018.12.10-22.22.41:893][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2018.12.10-22.22.41:905][175]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/NewMap_BuiltDataACCBB8FF4A9DE5BB8DB2AE92549053C1.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/NewMap_BuiltData.uasset'
+[2018.12.10-22.22.41:917][175]LogFileHelpers: Saving map 'NewMap' took 0.187
+[2018.12.10-22.22.47:220][808]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2018.12.10-22.22.47:220][808]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.12.10-22.22.47:220][808]LogVolumetricLightmapImport:      BrickData 15x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.12.10-22.22.47:220][808]LogVolumetricLightmapImport:      Bricks at Level
+[2018.12.10-22.22.47:220][808]LogVolumetricLightmapImport:          0: 33.3% covering 100.0% of volume
+[2018.12.10-22.22.47:220][808]LogVolumetricLightmapImport:          1: 33.3% covering 1.6% of volume
+[2018.12.10-22.22.47:220][808]LogVolumetricLightmapImport:          2: 33.3% covering 0.0% of volume
+[2018.12.10-22.22.47:247][808]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.12.10-22.22.47:247][808]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.12.10-22.22.47:247][808]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.12.10-22.22.47:247][808]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.12.10-22.22.47:247][808]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.12.10-22.22.47:247][808]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.12.10-22.22.47:247][808]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.12.10-22.22.47:247][808]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2018.12.10-22.22.47:270][808]Lightmass on DESKTOP-1MGU58P: 16.7 sec total, 70 ms importing, 4 ms setup, 695 ms photons, 15.9 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 2:55 min total, 77 ms processing.
+[2018.12.10-22.22.47:275][808]LogStaticLightingSystem: Illumination: 6.28 sec (6 ms encoding lightmaps, 14 ms encoding shadowmaps)
+[2018.12.10-22.22.47:275][808]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.12.10-22.22.47:275][808]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.12.10-22.22.47:915][808]DumpUnbuiltLightIteractions
+[2018.12.10-22.22.47:915][808]Lights with unbuilt interactions: 0
+[2018.12.10-22.22.47:915][808]
+[2018.12.10-22.22.47:915][808]Primitives with unbuilt interactions: 0
+[2018.12.10-22.22.47:970][809]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.12.10-22.22.47:970][809]MapCheck: New page: NewMap - Dec 10, 2018, 12:22:47 PM
+[2018.12.10-22.22.48:059][809]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.137ms to complete.
+[2018.12.10-22.23.38:050][244]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.23.39:397][375]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.23.42:608][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.27.06:873][109]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.10-22.27.16:734][351]MapCheck: New page: Map Check
+[2018.12.10-22.27.16:744][351]Cmd: MAP REBUILD ALLVISIBLE
+[2018.12.10-22.27.16:744][351]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.12.10-22.27.16:818][351]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.12.10-22.27.16:822][351]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.12.10-22.27.17:369][351]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.10-22.27.17:369][351]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.10-22.27.17:369][351]TextureStreamingBuild: Display: Compiling optional shaders took 0.553 seconds.
+[2018.12.10-22.27.17:372][351]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2018.12.10-22.27.17:377][351]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2018.12.10-22.27.17:394][351]LightingResults: New page: Lighting Build - Dec 10, 2018, 12:27:17 PM
+[2018.12.10-22.27.17:401][351]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.12.10-22.27.17:403][351]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.12.10-22.27.17:403][351]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.12.10-22.27.17:404][351]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.12.10-22.27.17:404][351]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15764
+[2018.12.10-22.27.21:928][351]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.12.10-22.27.21:928][351]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.12.10-22.27.21:928][351]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.12.10-22.27.21:928][351]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.12.10-22.27.21:928][351]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.12.10-22.27.22:005][351]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.12.10-22.27.22:005][351]MapCheck: New page: NewMap - Dec 10, 2018, 12:27:22 PM
+[2018.12.10-22.27.22:088][351]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.921ms to complete.
+[2018.12.10-22.27.22:111][351]LogEditorBuildUtils: Build time 0:05
+[2018.12.10-22.27.24:177][358]Job is a success!
+[2018.12.10-22.27.24:546][359]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.12.10-22.27.24:546][359]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.12.10-22.27.24:546][359]LogVolumetricLightmapImport:      BrickData 20x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.12.10-22.27.24:546][359]LogVolumetricLightmapImport:      Bricks at Level
+[2018.12.10-22.27.24:546][359]LogVolumetricLightmapImport:          0: 25.0% covering 100.0% of volume
+[2018.12.10-22.27.24:546][359]LogVolumetricLightmapImport:          1: 25.0% covering 1.6% of volume
+[2018.12.10-22.27.24:546][359]LogVolumetricLightmapImport:          2: 50.0% covering 0.0% of volume
+[2018.12.10-22.27.24:577][359]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.12.10-22.27.24:578][359]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128)
+[2018.12.10-22.27.24:578][359]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.12.10-22.27.24:578][359]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.12.10-22.27.24:578][359]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.12.10-22.27.24:578][359]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.12.10-22.27.24:578][359]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.12.10-22.27.24:578][359]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2018.12.10-22.27.24:606][359]Lightmass on DESKTOP-1MGU58P: 1.78 sec total, 66 ms importing, 3 ms setup, 698 ms photons, 983 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 10.3 sec total, 80 ms processing.
+[2018.12.10-22.27.24:611][359]LogStaticLightingSystem: Illumination: 6.87 sec (8 ms encoding lightmaps, 12 ms encoding shadowmaps)
+[2018.12.10-22.27.24:611][359]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.12.10-22.27.24:611][359]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.12.10-22.27.24:936][359]DumpUnbuiltLightIteractions
+[2018.12.10-22.27.24:936][359]Lights with unbuilt interactions: 0
+[2018.12.10-22.27.24:936][359]
+[2018.12.10-22.27.24:936][359]Primitives with unbuilt interactions: 0
+[2018.12.10-22.27.24:984][360]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.12.10-22.27.24:984][360]MapCheck: New page: NewMap - Dec 10, 2018, 12:27:24 PM
+[2018.12.10-22.27.25:068][360]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.132ms to complete.
+[2018.12.10-22.28.34:204][999]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.28.53:626][948]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.10-22.30.56:556][459]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.31.10:436][837]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.31.33:495][183]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.32.03:169][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.32.11:427][443]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.10-22.32.42:620][790]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.32.43:497][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.32.43:564][901]MapCheck: New page: Map Check
+[2018.12.10-22.32.43:576][901]Cmd: MAP REBUILD ALLVISIBLE
+[2018.12.10-22.32.43:576][901]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.12.10-22.32.43:647][901]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.12.10-22.32.43:651][901]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.12.10-22.32.44:210][901]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.10-22.32.44:210][901]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.10-22.32.44:210][901]TextureStreamingBuild: Display: Compiling optional shaders took 0.565 seconds.
+[2018.12.10-22.32.44:213][901]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.12.10-22.32.44:219][901]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2018.12.10-22.32.44:235][901]LightingResults: New page: Lighting Build - Dec 10, 2018, 12:32:44 PM
+[2018.12.10-22.32.44:242][901]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.12.10-22.32.44:244][901]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.12.10-22.32.44:244][901]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.12.10-22.32.44:245][901]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.12.10-22.32.44:245][901]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15764
+[2018.12.10-22.32.48:751][901]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.12.10-22.32.48:751][901]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.12.10-22.32.48:751][901]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.12.10-22.32.48:751][901]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.12.10-22.32.48:751][901]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.12.10-22.32.48:822][901]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.12.10-22.32.48:822][901]MapCheck: New page: NewMap - Dec 10, 2018, 12:32:48 PM
+[2018.12.10-22.32.48:911][901]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88.686ms to complete.
+[2018.12.10-22.32.48:934][901]LogEditorBuildUtils: Build time 0:05
+[2018.12.10-22.32.51:003][908]Job is a success!
+[2018.12.10-22.32.51:379][909]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2018.12.10-22.32.51:379][909]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.12.10-22.32.51:379][909]LogVolumetricLightmapImport:      BrickData 25x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.12.10-22.32.51:379][909]LogVolumetricLightmapImport:      Bricks at Level
+[2018.12.10-22.32.51:379][909]LogVolumetricLightmapImport:          0: 20.0% covering 100.0% of volume
+[2018.12.10-22.32.51:379][909]LogVolumetricLightmapImport:          1: 20.0% covering 1.6% of volume
+[2018.12.10-22.32.51:379][909]LogVolumetricLightmapImport:          2: 60.0% covering 0.1% of volume
+[2018.12.10-22.32.51:406][909]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.12.10-22.32.51:406][909]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.12.10-22.32.51:406][909]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.12.10-22.32.51:406][909]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.12.10-22.32.51:406][909]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.12.10-22.32.51:406][909]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.12.10-22.32.51:406][909]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2018.12.10-22.32.51:406][909]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 128X128)
+[2018.12.10-22.32.51:435][909]Lightmass on DESKTOP-1MGU58P: 1.73 sec total, 71 ms importing, 9 ms setup, 699 ms photons, 925 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 9.67 sec total, 75 ms processing.
+[2018.12.10-22.32.51:440][909]LogStaticLightingSystem: Illumination: 6.86 sec (9 ms encoding lightmaps, 7 ms encoding shadowmaps)
+[2018.12.10-22.32.51:440][909]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.12.10-22.32.51:440][909]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.12.10-22.32.51:756][909]DumpUnbuiltLightIteractions
+[2018.12.10-22.32.51:757][909]Lights with unbuilt interactions: 0
+[2018.12.10-22.32.51:757][909]
+[2018.12.10-22.32.51:757][909]Primitives with unbuilt interactions: 0
+[2018.12.10-22.32.51:814][910]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.12.10-22.32.51:814][910]MapCheck: New page: NewMap - Dec 10, 2018, 12:32:51 PM
+[2018.12.10-22.32.51:905][910]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.026ms to complete.
+[2018.12.10-22.33.25:728][829]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.33.30:321][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.33.32:478][636]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.33.42:792][903]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.35.28:432][286]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/super/Downloads/RGBTable16x1.png)
+[2018.12.10-22.35.28:436][286]LogTexture: Display: Building textures: RGBTable16x1 (AutoDXT, 256X16)
+[2018.12.10-22.35.29:986][461]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Maps/RGBTable16x1.RGBTable16x1
+[2018.12.10-22.35.30:003][461]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.12.10-22.35.51:247][921]LogTexture: Display: Building textures: RGBTable16x1 (BGRA8, 256X16)
+[2018.12.10-22.36.07:286][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/RGBTable16x1" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/RGBTable16x1.uasset" SILENT=true
+[2018.12.10-22.36.07:292][889]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/RGBTable16x117FD7E1A46B06EB17A93FAB8D7FB586B.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/RGBTable16x1.uasset'
+[2018.12.10-22.36.08:183][994]LogSlate: Window 'RGBTable16x1' being destroyed
+[2018.12.10-22.37.18:712][960]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.37.20:745][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.37.22:831][446]MapCheck: New page: Map Check
+[2018.12.10-22.37.22:844][446]Cmd: MAP REBUILD ALLVISIBLE
+[2018.12.10-22.37.22:844][446]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.12.10-22.37.22:915][446]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.12.10-22.37.22:919][446]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.12.10-22.37.23:489][446]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.10-22.37.23:489][446]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.10-22.37.23:489][446]TextureStreamingBuild: Display: Compiling optional shaders took 0.576 seconds.
+[2018.12.10-22.37.23:492][446]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.12.10-22.37.23:498][446]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.12.10-22.37.23:515][446]LightingResults: New page: Lighting Build - Dec 10, 2018, 12:37:23 PM
+[2018.12.10-22.37.23:523][446]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.12.10-22.37.23:526][446]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.12.10-22.37.23:526][446]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.12.10-22.37.23:527][446]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.12.10-22.37.23:527][446]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15764
+[2018.12.10-22.37.28:038][446]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.12.10-22.37.28:038][446]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.12.10-22.37.28:038][446]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.12.10-22.37.28:038][446]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.12.10-22.37.28:038][446]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.12.10-22.37.28:128][446]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.12.10-22.37.28:128][446]MapCheck: New page: NewMap - Dec 10, 2018, 12:37:28 PM
+[2018.12.10-22.37.28:223][446]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.203ms to complete.
+[2018.12.10-22.37.28:245][446]LogEditorBuildUtils: Build time 0:05
+[2018.12.10-22.37.29:722][551]Job is a success!
+[2018.12.10-22.37.29:761][553]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2018.12.10-22.37.29:761][553]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.12.10-22.37.29:761][553]LogVolumetricLightmapImport:      BrickData 25x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.12.10-22.37.29:761][553]LogVolumetricLightmapImport:      Bricks at Level
+[2018.12.10-22.37.29:761][553]LogVolumetricLightmapImport:          0: 20.0% covering 100.0% of volume
+[2018.12.10-22.37.29:761][553]LogVolumetricLightmapImport:          1: 20.0% covering 1.6% of volume
+[2018.12.10-22.37.29:761][553]LogVolumetricLightmapImport:          2: 60.0% covering 0.1% of volume
+[2018.12.10-22.37.29:787][553]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128)
+[2018.12.10-22.37.29:787][553]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.12.10-22.37.29:787][553]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.12.10-22.37.29:787][553]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.12.10-22.37.29:787][553]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.12.10-22.37.29:787][553]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.12.10-22.37.29:787][553]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2018.12.10-22.37.29:788][553]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 128X128)
+[2018.12.10-22.37.29:813][553]Lightmass on DESKTOP-1MGU58P: 1.16 sec total, 77 ms importing, 3 ms setup, 697 ms photons, 353 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 3.39 sec total, 91 ms processing.
+[2018.12.10-22.37.29:821][553]LogStaticLightingSystem: Illumination: 6.29 sec (10 ms encoding lightmaps, 8 ms encoding shadowmaps)
+[2018.12.10-22.37.29:821][553]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.12.10-22.37.29:821][553]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.12.10-22.37.30:040][553]DumpUnbuiltLightIteractions
+[2018.12.10-22.37.30:040][553]Lights with unbuilt interactions: 0
+[2018.12.10-22.37.30:041][553]
+[2018.12.10-22.37.30:041][553]Primitives with unbuilt interactions: 0
+[2018.12.10-22.37.30:083][554]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.12.10-22.37.30:084][554]MapCheck: New page: NewMap - Dec 10, 2018, 12:37:30 PM
+[2018.12.10-22.37.30:172][554]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.877ms to complete.
+[2018.12.10-22.37.32:323][812]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-22.37.32:336][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-22.37.32:336][812]PIE: New page: PIE session: NewMap (Dec 10, 2018, 12:37:32 PM)
+[2018.12.10-22.37.32:336][812]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2018.12.10-22.37.32:338][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002044s)
+[2018.12.10-22.37.32:338][812]LogAIModule: Creating AISystem for world NewMap
+[2018.12.10-22.37.32:338][812]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2018.12.10-22.37.32:339][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.002759s)
+[2018.12.10-22.37.32:394][812]LogInit: XAudio2 using 'Headphones (MJY Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-22.37.32:405][812]LogInit: FAudioDevice initialized.
+[2018.12.10-22.37.32:436][812]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.10-22.37.32:438][812]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.12.10-17.37.32
+[2018.12.10-22.37.32:438][812]LogWorld: Bringing up level for play took: 0.000429
+[2018.12.10-22.37.32:452][812]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.345
+[2018.12.10-22.37.37:954][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-22.37.37:990][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-22.37.38:008][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-22.37.38:053][474]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.12.10-22.37.42:697][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.10-22.37.43:859][164]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.39.21:900][511]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.42.27:898][287]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-22.42.27:909][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-22.42.27:909][287]PIE: New page: PIE session: NewMap (Dec 10, 2018, 12:42:27 PM)
+[2018.12.10-22.42.27:909][287]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2018.12.10-22.42.27:911][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002250s)
+[2018.12.10-22.42.27:912][287]LogAIModule: Creating AISystem for world NewMap
+[2018.12.10-22.42.27:912][287]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2018.12.10-22.42.27:912][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003168s)
+[2018.12.10-22.42.27:965][287]LogInit: XAudio2 using 'Headphones (MJY Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-22.42.27:976][287]LogInit: FAudioDevice initialized.
+[2018.12.10-22.42.28:005][287]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.10-22.42.28:006][287]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.12.10-17.42.28
+[2018.12.10-22.42.28:006][287]LogWorld: Bringing up level for play took: 0.000441
+[2018.12.10-22.42.28:020][287]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.086
+[2018.12.10-22.42.47:353][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-22.42.47:383][556]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-22.42.47:402][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-22.42.47:459][562]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.12.10-22.42.50:886][972]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.42.50:890][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.12.10-22.42.50:945][972]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/NewMapDA0916B94551F76B36FEFB919B991523.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/NewMap.umap'
+[2018.12.10-22.42.50:973][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2018.12.10-22.42.51:001][972]LogSavePackage: Moving 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Saved/NewMap_BuiltData371D557E4A22E84FA183EE8EE11233FE.tmp' to 'C:/Users/super/OneDrive/Documents/GD_project4/project4/Content/Maps/NewMap_BuiltData.uasset'
+[2018.12.10-22.43.10:332][522]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.12.10-22.43.12:822][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-22.43.12:888][825]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.10-22.43.12:899][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.10-22.43.12:899][825]PIE: New page: PIE session: NewMap (Dec 10, 2018, 12:43:12 PM)
+[2018.12.10-22.43.12:899][825]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2018.12.10-22.43.12:901][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001929s)
+[2018.12.10-22.43.12:901][825]LogAIModule: Creating AISystem for world NewMap
+[2018.12.10-22.43.12:902][825]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2018.12.10-22.43.12:902][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.002555s)
+[2018.12.10-22.43.12:960][825]LogInit: XAudio2 using 'Headphones (MJY Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-22.43.12:971][825]LogInit: FAudioDevice initialized.
+[2018.12.10-22.43.13:002][825]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.10-22.43.13:003][825]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.12.10-17.43.13
+[2018.12.10-22.43.13:003][825]LogWorld: Bringing up level for play took: 0.000412
+[2018.12.10-22.43.13:017][825]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.91
+[2018.12.10-22.43.20:811][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-22.43.20:842][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.10-22.43.20:861][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-22.43.20:925][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.10-22.43.20:972][757]LogSlate: Took 0.042577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.12.10-22.43.20:975][758]LogPlayLevel: Display: Destroying online subsystem :Context_32
